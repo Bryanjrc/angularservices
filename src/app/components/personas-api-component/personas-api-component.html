@@ -1,0 +1,11 @@
+<h1>Service Api Personas</h1>
+
+@for (person of personas; track person) {
+    <p style="color: blue;">
+        Nombre: {{person.nombre}}, Edad: {{person.edad}}
+    </p>
+
+    <p style="color: blueviolet;">
+        Email: {{person.email}}
+    </p>
+}
